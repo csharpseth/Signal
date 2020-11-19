@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e05002c364348b303d7886fb8ebb, type: 3}
+  m_Name: Default Recipe Book
+  m_EditorClassIdentifier: 
+  recipes:
+  - resultName: Raft
+    result: {fileID: 1940122462496101924, guid: 687f4374a4d469142a8fc868f438f6fc,
+      type: 3}
+    required:
+    - id: 2
+      quantity: 5
+    - id: 1
+      quantity: 10
+  - resultName: Paddle
+    result: {fileID: 4617793712811146680, guid: c14d6096be96ab8418c3be55d279933c,
+      type: 3}
+    required:
+    - id: 1
+      quantity: 2
