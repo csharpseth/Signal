@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class MovementController : MonoBehaviour
 {
+    public static Vector3 position;
+
     public float walkSpeed = 6f;
     public float runSpeed = 11f;
     public float jumpForce = 300f;
@@ -35,6 +37,7 @@ public class MovementController : MonoBehaviour
 
     private void Update()
     {
+        position = transform.position;
         grounded = Physics.CheckSphere(transform.position, groundCheckRadius, groundMask);
 
         if(inputDir != Vector2.zero && grounded)

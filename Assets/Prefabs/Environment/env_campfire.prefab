@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8251927977808709068}
   - component: {fileID: 167849675969955492}
   - component: {fileID: 588069911476165406}
+  - component: {fileID: 4498196171736362522}
   m_Layer: 0
   m_Name: env_campfire
   m_TagString: Untagged
@@ -94,3 +95,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2472503889623077610, guid: dbee72315d3ac3c498002d2a8a76b8d2, type: 3}
+--- !u!205 &4498196171736362522
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252285972295416620}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.08156252, y: 0.50502664, z: -0.10758805}
+  m_Size: 1.686482
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.14576453
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 167849675969955492}
+  m_Enabled: 1

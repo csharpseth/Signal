@@ -182,8 +182,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5325523123086697817}
+  - component: {fileID: 5448361747991610952}
   m_Layer: 0
-  m_Name: Tent_Red
+  m_Name: env_tent_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,3 +206,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &5448361747991610952
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8213500425936889872}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.4399933, z: -0.035871983}
+  m_Size: 4.744187
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.047276136
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7573104529691411507}
+    - renderer: {fileID: 9178630729050213784}
+  m_Enabled: 1

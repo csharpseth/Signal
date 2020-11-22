@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: LowLevelCamp
   m_EditorClassIdentifier: 
   items:
-  - id: 2
-    prefab: {fileID: 167040831123546333, guid: 6c2b4dbda2b866448b3d1ec86a24e311, type: 3}
+  - id: 3
+    prefab: {fileID: 563299143656787235, guid: 06583db6c49022143b1e5fe088cdbf97, type: 3}
   - id: 4
     prefab: {fileID: 3779821422928303697, guid: 0c17d675615b59c40bd49e21989e4c79,
       type: 3}
-  - id: 3
-    prefab: {fileID: 563299143656787235, guid: 06583db6c49022143b1e5fe088cdbf97, type: 3}

@@ -78,7 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identification: 2
   prefab: {fileID: 167040831123546333}
-  pickupSound: {fileID: 8300000, guid: ce658ad693b79c84b8c35d4afee9ee1a, type: 3}
+  pickupSound: {fileID: 8300000, guid: edf2eac37cf975148a48a50be68b2743, type: 3}
 --- !u!114 &1526209869221768324
 MonoBehaviour:
   m_ObjectHideFlags: 0

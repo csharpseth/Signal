@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6135626925717357863}
   - component: {fileID: 7821517001215733113}
   - component: {fileID: 6550219317081482757}
+  - component: {fileID: 8538462904797756711}
   m_Layer: 0
   m_Name: env_barrel_orange
   m_TagString: Untagged
@@ -94,3 +95,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7723561344205512340, guid: dbee72315d3ac3c498002d2a8a76b8d2, type: 3}
+--- !u!205 &8538462904797756711
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6700113390800121088}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00000008940697, y: 0.6311305, z: -0.000000059604645}
+  m_Size: 1.262261
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.10032117
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7821517001215733113}
+  m_Enabled: 1

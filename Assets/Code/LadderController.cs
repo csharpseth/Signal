@@ -12,11 +12,12 @@ public class LadderController : MonoBehaviour
     private void FixedUpdate()
     {
         if (ply == null) return;
-
+        PlayerInputController.instance.Stop();
         ply.position = ply.position + (Vector3.up * climbSpeed);
         Debug.Log("Climbing?");
         if(ply.position.y >= topOfLadder.position.y)
         {
+            PlayerInputController.instance.Stop(false);
             ply.position = topOfLadder.position;
             ply.isKinematic = false;
             ply = null;
@@ -36,5 +37,6 @@ public class LadderController : MonoBehaviour
         ply = PlayerInventory.instance.GetComponent<Rigidbody>();
         ply.isKinematic = true;
         ply.position = startOfLadder.position;
+        ply.rotation = startOfLadder.rotation;
     }
 }

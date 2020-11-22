@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    public int primarySceneIndex = -1;
+    public int primarySceneIndex = 1;
+    public int menuSceneIndex = 0;
 
+
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene(menuSceneIndex);
+    }
     public void Play()
     {
         SceneManager.LoadScene(primarySceneIndex);

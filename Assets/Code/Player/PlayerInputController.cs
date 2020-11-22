@@ -6,6 +6,9 @@ using UnityEngine;
 public class PlayerInputController : MonoBehaviour
 {
     public static PlayerInputController instance;
+
+    public GameObject pauseScreen;
+
     private MovementController moveController;
     private PlayerInventory inventory;
     private PlayerStats stats;
@@ -72,6 +75,7 @@ public class PlayerInputController : MonoBehaviour
         {
             tabOut = !tabOut;
             mouse.Lock(!tabOut);
+            pauseScreen.SetActive(tabOut);
         }
 
         if (Input.GetButtonDown("Jump"))

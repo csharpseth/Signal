@@ -10,7 +10,6 @@ public class GlobalSoundManager : MonoBehaviour
     {
         instance = this;
         src = GetComponent<AudioSource>();
-        DontDestroyOnLoad(gameObject);
     }
 
     public static void PlaySound(AudioClip clip)
