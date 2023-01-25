@@ -1,5 +1,6 @@
 # Signal
 Signal is a survival-adventure game created for the Mix & Jam Game Jam in 48 hours. All of the art, audio, and code was created by me.
+You can play the completed game and learn more [HERE](https://sethhamm.itch.io/signal)
 
 ## Screenshots:
 <img src="https://img.itch.zone/aW1hZ2UvODI5Mjc5LzQ2NDc2NjQuanBn/794x1000/vnkD%2BW.jpg">
